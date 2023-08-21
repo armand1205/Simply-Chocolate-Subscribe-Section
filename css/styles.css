@@ -89,6 +89,13 @@ body {
   cursor: pointer;
   width: 128px;
   height: 41px;
+  transition: ease-out 0.3s;
+}
+
+.subscribe-button:hover,
+.subscribe-button:focus {
+  color: #fd9222;
+  background: #fcf1e0;
 }
 
 /* Modal */
@@ -134,6 +141,13 @@ body {
   position: absolute;
   top: 15px;
   right: 14px;
+  stroke: #fff;
+  transition: stroke 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.close-btn:hover,
+.close-btn:focus {
+  stroke: #fd9222;
 }
 
 .close-btn svg {
@@ -239,6 +253,14 @@ body {
   position: absolute;
   top: 0;
   left: 163px;
+  cursor: pointer;
+  transition: ease-out 0.3s;
+}
+
+.submit-btn:hover,
+.submit-btn:focus {
+  color: #fd9222;
+  background: #fcf1e0;
 }
 
 /* Tablet */
