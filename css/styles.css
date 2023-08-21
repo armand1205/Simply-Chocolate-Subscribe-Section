@@ -144,10 +144,12 @@ body {
   right: 14px;
   position: absolute;
   top: 15px;
-  display: inline-block;
-  stroke-width: 0;
-  stroke: white;
-  fill: white;
+}
+
+.close-btn svg {
+  margin: 0;
+  width: 24px;
+  height: 24px;
 }
 
 .subscribe-modal-bg {
@@ -158,6 +160,7 @@ body {
   margin: 0;
   border: none;
   border-radius: 15px;
+  position: relative;
 }
 
 .subscribe-modal-text {
@@ -247,11 +250,4 @@ body {
   position: absolute;
   top: 0;
   left: 163px;
-}
-
-.icon-x-close {
-  display: inline-block;
-  stroke-width: 0;
-  stroke: currentColor;
-  fill: currentColor;
 }
